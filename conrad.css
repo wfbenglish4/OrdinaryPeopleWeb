@@ -1,0 +1,219 @@
+﻿body {
+    background-color: #001b52;
+    max-width:100%;
+    overflow-x:hidden;
+    margin-right:4px;
+}
+.nav-pills{
+    background-color:#a4abc2;
+    padding: 5px 10px;
+    position:absolute;
+    top:45px;
+    width:40%;
+    right:0;
+}
+.page-header{
+    background-color:#a4abc2;
+    padding: 5px 10px;
+    width:400px;
+    height:auto;
+    top:20px;
+    margin-top:2em;
+}
+.page-header h1{
+    position:relative;
+    left:75px;
+}
+h1 a, a:hover{
+    text-decoration: none;
+}
+.feature{
+    height:650px;
+    background-color:#337ab7;
+    border-radius:15px 50px 30px;
+}
+.feature footer{
+    color:whitesmoke;
+}
+.silhouette{
+    position:relative;
+    top:10%;
+    margin-top:20px;
+}
+.speech {
+  color:#2779aa;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
+.speech:focus{
+    outline:none;
+    color:#2779aa;
+}
+.speech:before {
+    position:absolute;
+  content: ' ';
+  width: 0;
+  height: 0;
+  left: 30px;
+  top: 184px;
+  border: 25px solid;
+  border-color: #666 transparent transparent #666;
+}
+.speech:after {
+    position:absolute;
+  content: ' ';
+  width: 0;
+  height: 0;
+  left: 38px;
+  top: 184px;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
+}
+.analysis{
+    height:unset;
+    font-size:15px;
+    position:relative;
+    top:50px;
+    border-radius:10px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  border-bottom: 1px solid #ddd;
+}
+
+.slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 5px;
+}
+
+slide-copy h1 { 
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.slide-copy p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+
+.slide-img {
+  text-align: right;
+}
+
+.slider-nav {
+    position:relative;
+    top:-15px;
+    left:0%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #363636;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+    color: #bbbcbc;
+}
+.next-btn{
+    position:absolute;
+    top:595px;
+    left:555px;
+    display:table;
+    margin:15px auto;
+    height:25px;
+    width:125px;
+    color:#001b52;
+    background-color:#e4f1fb;
+    border-radius:5px;
+}
+.next-btn:hover{
+    color:#e4f1fb;
+    background-color:#001b52;
+}
+.prev-btn{
+    position:relative;
+    top:-67px;
+    left:-225px;
+    display:table;
+    margin:15px auto;
+    height:25px;
+    width:125px;
+    color:#001b52;
+    background-color:#e4f1fb;
+    border-radius:5px;
+}
+.prev-btn:hover{
+    color:#e4f1fb;
+    background-color:#001b52;
+}
+.icon-flipped{
+    transform: scaleX(-1);
+}
+.rotate{
+    transform: rotate(-90deg) scaleX(-1.25) scaleY(1.15);
+    top:20%;
+}
+.footer{
+    position:absolute;
+    top:94%;
+    bottom:0;
+    width:100%;
+    border-top:solid;
+    border-top-width:1px;
+    border-top-color:whitesmoke;
+    background-color:#a4abc2;
+    padding-top:1%;
+}
